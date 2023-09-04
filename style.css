@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #0074E4, transparent);
+    /* Asegúrate de que ocupe toda la pantalla */
+    height: 100vh;
+    margin: 0;
+    /* Esto proporciona un degradado suave en navegadores antiguos */
+    background: -webkit-linear-gradient(top, #0074E4, transparent);
+    font-size:20px
+}
+
+h1 {
+    margin-bottom:2em;
+}
+.labels {
+    margin-bottom: 2em;
+}
+
+#subm {
+    border-radius: 0.3em;
+    padding:0.3em;
+    border-color: #0074E4;
+}
